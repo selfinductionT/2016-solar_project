@@ -8,37 +8,45 @@ class Star:
     а также визуальный радиус звезды в пикселах и её цвет.
     """
 
-    type = "star"
+    def __init__(self, raduis, color, mass, r, V):
+        self.raduis = raduis
+        self.color = color
+        self.mass = mass
+        self.r = r
+        self.V = V
+        self.type = Star  # Is it needed?
+
+#    type = "star"
     """Признак объекта звезды"""
 
-    m = 0
+#    m = 0
     """Масса звезды"""
 
-    x = 0
+#    x = 0
     """Координата по оси **x**"""
 
-    y = 0
+#    y = 0
     """Координата по оси **y**"""
 
-    Vx = 0
+#    Vx = 0
     """Скорость по оси **x**"""
 
-    Vy = 0
+#    Vy = 0
     """Скорость по оси **y**"""
 
-    Fx = 0
+#    Fx = 0
     """Сила по оси **x**"""
 
-    Fy = 0
+#    Fy = 0
     """Сила по оси **y**"""
 
-    R = 5
+#    R = 5
     """Радиус звезды"""
 
-    color = "red"
+#    color = "red"
     """Цвет звезды"""
 
-    image = None
+#    image = None
     """Изображение звезды"""
 
 
@@ -47,6 +55,14 @@ class Planet:
     Содержит массу, координаты, скорость планеты,
     а также визуальный радиус планеты в пикселах и её цвет
     """
+
+    def __init__(self, raduis, color, mass, r, V):
+        self.raduis = raduis
+        self.color = color
+        self.mass = mass
+        self.r = r
+        self.V = V
+        self.type = Planet  # Is it needed?
 
     type = "planet"
     """Признак объекта планеты"""
