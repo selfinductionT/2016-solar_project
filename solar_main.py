@@ -1,4 +1,4 @@
-# coding: utf-8
+# coding: utf-8 abobus
 # license: GPLv3
 
 import tkinter
